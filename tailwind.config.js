@@ -1,12 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ['./src/**/*.{html,rs}', 'index.html'],
-
+        content: [
+            "./src/**/*.rs",
+            "./index.html",
+            "./src/**/*.html",
+            "./src/**/*.css",
+			"./node_modules/flowbite/**/*.js"
+        ],
 	theme: {
 		extend: {},
 	},
 	plugins: [
 		require('@tailwindcss/typography'),
-    require('@tailwindcss/forms'),
+		require('@tailwindcss/forms'),
 	],
 };

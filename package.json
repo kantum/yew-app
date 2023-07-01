@@ -1,0 +1,15 @@
+{
+	"scripts": {
+		"build": "tailwindcss build -i styles/input.css -o styles/output.css --minify",
+		"dev": "tailwindcss build -i styles/input.css -o styles/output.css --watch"
+	},
+	"dependencies": {
+		"@popperjs/core": "^2.11.8",
+		"@tailwindcss/forms": "^0.5.3",
+		"@tailwindcss/typography": "^0.5.9",
+		"flowbite": "^1.6.6",
+		"flowbite-svelte": "^0.39.1",
+		"tailwind-merge": "^1.13.2",
+		"tailwindcss": "^3.3.2"
+	}
+}

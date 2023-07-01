@@ -1,10 +1,15 @@
 # Tailwind info
 
-## Start a watcher
-`./tailwindcss -i styles/input.css -o styles/output.css --watch`
 
-## Compile and minify your CSS for production
-`./tailwindcss -i styles/input.css -o styles/output.css --minify`
+```shell
+pnpm run dev
+```
+
+or 
+
+```shell
+pnpm run build
+```
 
 If you already had an HTML file before the tailwind build, make sure to add the link to the output css file. 
 
